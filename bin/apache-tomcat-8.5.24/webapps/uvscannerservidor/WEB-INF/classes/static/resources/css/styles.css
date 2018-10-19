@@ -1,0 +1,174 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+.main{
+    background: url('../image/fondo1.gif') no-repeat !important;
+    background-size: cover !important; 
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    width:100vw !important;
+}
+.headermain{
+    background-color:rgb(46, 27, 21);
+}
+
+.imgMain{
+    background: url('/image/sunEarth.jpg') no-repeat;
+    background-size: 100% 100% !important;
+}
+.nameUser{
+    font-family: merriweather;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.linkscustom{
+    color: black;
+    text-decoration-line: none;
+
+}
+.general-template-container{
+    background-color:#f7f7f7;
+    cursor: pointer;
+}
+.ctn-paneles-aplicaciones {
+    border-radius: 4px;
+    background-color:#f7f7f7;
+    margin:20px 20px 20px 30px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.3); 
+}
+/* tamaño de los nav*/
+.x-treelist-item-tool, .x-treelist-row, .x-treelist-item-wrap{
+    line-height:70px !important;
+}
+/*Estilo de la letra e íconos del treelist o menú lateral izquierda*/
+/* Estilo icono y texto  */
+.x-treelist-item-text{
+    text-align: center;
+}
+/*Estilos del texto de los items del treelist*/
+.x-treelist-navigation .x-treelist-item-text{
+    color:#cbe5f1 !important;
+    position: relative !important;
+    /*float: left !important;*/
+    width: 80px !important;
+    margin-left:0px !important;
+    margin-right:0px !important;
+    font-size:12px !important;
+    line-height: 12px !important;
+}
+.title_main{
+    letter-spacing: 4px;
+    font-size: 2em;
+    text-align: center;
+    color:#E64A19;
+}
+.bagroundWheater{
+    background:rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+
+/*Estilos de iconos de los items del treelist*/
+.x-treelist-navigation .x-treelist-item-icon, .x-treelist-navigation .x-treelist-item-tool{
+    color:#cbe5f1 !important;
+    position: relative !important;
+    /*float: left !important;*/
+    font-size: 32px !important;
+    width: 80px !important;
+    height: 52px !important;
+}
+/* Color blanco en imagen y texto cuando esta seleccionado */
+.x-treelist-navigation .x-treelist-item-selected .x-treelist-item-text, .x-treelist-navigation .x-treelist-item-selected .x-treelist-item-icon{
+    color: #f0f0f0 !important;
+}
+.pnl-principal-style{
+    background: white !important;
+}
+.justifyText{
+    text-align : justify; 
+    font-size: 1em;
+
+}
+.textUbicacion{
+    font-family: Dosis, serif;
+    font-size: 20px; 
+}
+.textGe{
+    font-family: Dosis, serif;
+    font-size: 20px; 
+    font-weight: 600;
+}
+.textRe{
+    font-family: Dosis, bold;
+    font-size: 25px;
+    line-height: 20px; 
+}
+.ctnBorder{
+    border-style:ridge;
+    border-color: rgb(180, 179, 218);
+}
+/*Estilos pnl_UVI*/
+.text_var{
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    font-family: merriweather;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: 1px;
+}
+.txtButton{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+.text_title_infUVI{
+    font-size: 2em;
+    color:#E64A19;
+    font-family: sofia-pro, sans-serif,;
+    width:400px;
+    line-height:20px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.textInf{
+    font-family: Dosis, bold;   
+    font-size: 20px;
+    color: #2c1547 ;
+    text-align: justify;
+    line-height: 24px;
+}
+.textInfTitle{
+    font-size: 2em;
+    color:#E64A19;
+    font-family: sofia-pro, sans-serif,;
+    line-height: 20px;
+
+}
+.my-x-btn-over{
+    opacity:.8;
+}
+.my-x-btn-day{
+    background-color: #aa0000 !important; 
+}
+
+.my-x-btn-week{
+    background-color: #00aa00 !important; 
+}
+.my-x-btn-month{
+    background-color: #1100aa !important; 
+}
+
+
+

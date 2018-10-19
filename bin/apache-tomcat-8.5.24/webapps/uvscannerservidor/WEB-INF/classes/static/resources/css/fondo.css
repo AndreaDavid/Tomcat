@@ -1,0 +1,17 @@
+body{
+	background: #121212;
+	margin: 0;
+	overflow: hidden;
+}
+h1{
+	position: absolute;
+  top: 0;
+	font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+	font-size: 280px;
+  font-size: 16vw;
+  text-align: center;
+  color: rgba(18, 18, 18, 0.31);
+  margin: 150px 0 0;
+}

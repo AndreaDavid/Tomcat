@@ -1,0 +1,55 @@
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+*, *:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.universe {
+  width:100vw;
+  height: 100vh;
+  background: #363640;
+  display: block;
+  position: relative;
+  animation: skyDim 4s 8s linear forwards;
+}
+
+.universe:before {
+    content: "";
+    box-shadow: 
+      10vw 1vh #fff,
+      14vw 29vh 2px #FFF,
+      23vw 34vh 1px #FFF,
+      1vw 99vh 1px #FFF,
+      20vw 80vh #FFF,
+      90vw 10vh 2px #fff,
+      55vw 9vh #FFF,
+      24vw 4vh 1px #FFF,
+      50vw 99vh 1px #FFF,
+      74vw 40vh 1px #FFF,
+      80vw 9vh 1px #FFF,
+      20vw 80vh #FFF,
+      85vw 78vh #fff;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    border-radius: 50%;
+  animation: starsFloating 100s -200s linear both infinite;
+}
+
+
+@keyframes starsFloating {
+  0% {
+   opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
+}
